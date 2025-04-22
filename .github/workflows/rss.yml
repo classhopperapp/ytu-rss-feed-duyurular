@@ -24,6 +24,6 @@ jobs:
         run: |
           git config --local user.email "ebartan@gmail.com"
           git config --local user.name "GitHub Action"
-          git add ytu_etkinlikler.xml
+          git add ytu_duyurular.xml
           git commit -m "RSS dosyası güncellendi" || echo "Değişiklik yok"
           git push
